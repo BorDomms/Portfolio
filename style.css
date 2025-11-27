@@ -11,16 +11,6 @@
 	transition: background-color 0.8s, color 0.8s, background-image 0.8s;
 }
 
-h1 {
-	display: inline-block;
-	border: 3px solid #9d4edd; /*purple*/
-	padding: 6px 30px;
-	border-radius: 8px;
-	color: #9d4edd; /*purple*/
-	transition: border-color 0.8s, color 0.8s;
-	width: 100%;
-}
-
 header {
 	text-align: center;
 	margin-bottom: 30px;
