@@ -1,7 +1,6 @@
 const toggleButton = document.getElementById('theme-toggle');
 const body = document.body;
 const transitionDuration = 800;
-const profileImg = document.getElementById('profile-img');
 
 if (localStorage.getItem('theme') === 'dark') {
     body.classList.add('dark');
@@ -12,9 +11,8 @@ if (localStorage.getItem('theme') === 'dark') {
 
 toggleButton.addEventListener('click', () => {
     toggleButton.disabled = true;
-    profileImg.classList.add('pulse');
     body.classList.toggle('dark');
-    
+
     if (body.classList.contains('dark')) {
         localStorage.setItem('theme', 'dark');
         toggleButton.textContent = "Light Mode";
@@ -24,7 +22,6 @@ toggleButton.addEventListener('click', () => {
     }
 
     setTimeout(() => {
-        profileImg.classList.remove('pulse');
         toggleButton.disabled = false;
     }, transitionDuration);
 });
