@@ -97,6 +97,27 @@ ul {
     flex-wrap: wrap;
 }
 
+li {
+    list-style-type: none;
+    margin-bottom: 33px;
+}
+
+li label {
+    display: block;
+}
+
+li img {
+    width: 500px;
+    margin: 5px;
+    padding: 0;
+
+    animation: breathe 2s ease-out infinite alternate;
+}
+
+li img:hover {
+    transform: scale(1.05);
+}
+
 @keyframes breatheGlowLight {
 	0%, 100% {
 		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.6);
