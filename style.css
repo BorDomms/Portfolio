@@ -112,10 +112,6 @@ li img {
     padding: 0;
 }
 
-li img:hover {
-    transform: scale(1.05);
-}
-
 @keyframes breatheGlowLight {
 	0%, 100% {
 		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.3);
