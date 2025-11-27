@@ -1,3 +1,9 @@
+* {
+    font-family: "Space Mono", 'Segoe UI', Helvetica, Arial, sans-serif;
+    transition: 0.25s ease;
+    text-shadow: 0 0 2px rgb(25, 117, 255);
+}
+
 body {
 	font-family: Arial, sans-serif;
 	background-color: #515151;
