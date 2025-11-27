@@ -20,7 +20,7 @@ header {
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
-	border: 2px solid #9d4edd; /*purple*/
+	border: 4px solid #9d4edd; /*purple*/
 	border-radius: 50%;
 	box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.6);
 	transition: border-color 0.8s, box-shadow 0.8s;
