@@ -118,6 +118,15 @@ li img:hover {
     transform: scale(1.05);
 }
 
+@keyframes breathe {
+    0% {
+        box-shadow: 0 0 10px rgb(0, 102, 255);
+    }
+    100% {
+        box-shadow: 0 0 16px rgb(0, 102, 255);
+    }
+}
+
 @keyframes breatheGlowLight {
 	0%, 100% {
 		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.6);
