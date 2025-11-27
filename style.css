@@ -24,6 +24,7 @@ header {
 	border-radius: 50%;
 	box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.8);
 	transition: border-color 0.8s, box-shadow 0.8s;
+	animation: breatheGlowLight 3s ease-in-out infinite;
 }
 
 button {
@@ -52,6 +53,7 @@ body.dark {
 body.dark #profile-img {
 	border-color: #fae588; /*yellow*/
 	box-shadow: 0 0 24px 8px rgba(250, 239, 156, 0.8);
+	animation: breatheGlowDark 3s ease-in-out infinite;
 }
 
 body.dark #theme-toggle {
@@ -84,12 +86,20 @@ ul {
     flex-wrap: wrap;
 }
 
-@keyframes pulseGlow {
-  0% { box-shadow: 0 0 24px 8px rgba(250, 239, 156, 0.8); }
-  50% { box-shadow: 0 0 32px 12px rgba(250, 239, 156, 1); }
-  100% { box-shadow: 0 0 24px 8px rgba(250, 239, 156, 0.8); }
+@keyframes breatheGlowLight {
+	0%, 100% {
+		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.8);
+	}
+	50% {
+		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 1);
+	}
 }
 
-#profile-img.pulse {
-  animation: pulseGlow 0.8s ease-in-out;
+@keyframes breatheGlowDark {
+	0%, 100% {
+		box-shadow: 0 0 24px 8px rgba(250, 239, 156, 0.8);
+	}
+	50% {
+		box-shadow: 0 0 24px 8px rgba(250, 239, 156, 1);
+	}
 }
