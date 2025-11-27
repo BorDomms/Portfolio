@@ -73,6 +73,7 @@ body.dark section h2 {
 section {
   margin: 40px auto;
   max-width: 80%;
+  color: #9d4edd; /*purple*/
   background: rgba(108, 117, 125, 0.3); /*gray*/
   padding: 20px;
   border-radius: 10px;
