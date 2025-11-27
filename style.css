@@ -70,6 +70,11 @@ body.dark section h2 {
 	color: #fae588;
 }
 
+body.dark li img {
+	animation: breatheGlowDark 3s ease-out infinite alternate;
+}
+
+
 section {
   margin: 40px auto;
   max-width: 800px;
@@ -111,7 +116,7 @@ li img {
     margin: 5px;
     padding: 0;
 
-    animation: breathe 2s ease-out infinite alternate;
+    animation: breatheGlowLight 3s ease-out infinite alternate;
 }
 
 li img:hover {
