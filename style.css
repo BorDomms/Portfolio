@@ -15,7 +15,7 @@ header {
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
-	border: 10px solid #36454f;
+	border: 10px solid #9a0101;
 	border-radius: 50%;
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3)
 }
