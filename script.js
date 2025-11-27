@@ -1,8 +1,8 @@
 const toggleButton = document.getElementById('theme-toggle');
 const body = document.body;
-const transitionDuration = 1000; // duration in milliseconds, matches your CSS
+const transitionDuration = 800;
+const profileImg = document.getElementById('profile-img');
 
-// Set initial state based on localStorage
 if (localStorage.getItem('theme') === 'dark') {
     body.classList.add('dark');
     toggleButton.textContent = "Light Mode";
@@ -11,13 +11,10 @@ if (localStorage.getItem('theme') === 'dark') {
 }
 
 toggleButton.addEventListener('click', () => {
-    // Disable the button immediately
     toggleButton.disabled = true;
-
-    // Toggle theme
+    profileImg.classList.add('pulse');
     body.classList.toggle('dark');
-
-    // Update localStorage and button text
+    
     if (body.classList.contains('dark')) {
         localStorage.setItem('theme', 'dark');
         toggleButton.textContent = "Light Mode";
@@ -26,8 +23,8 @@ toggleButton.addEventListener('click', () => {
         toggleButton.textContent = "Dark Mode";
     }
 
-    // Re-enable button after transition finishes
     setTimeout(() => {
+        profileImg.classList.remove('pulse');
         toggleButton.disabled = false;
     }, transitionDuration);
 });
