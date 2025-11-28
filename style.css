@@ -18,7 +18,7 @@ header h1 { /*Light Mode Title*/
 	text-shadow: 0 0 12px rgba(108, 117, 125, 1); /*gray*/
 }
 
-header p { /*Light Mode Title*/
+header p { /*Light Mode Text*/
 	font-family:  'Roboto Mono', monospace;
 	color: black;
 	text-align: center;
@@ -76,16 +76,16 @@ body.dark #theme-toggle { /*Dark Mode Button*/
 	color: black;
 }
 
-body.dark header h1 { /*Light Mode Title*/
+body.dark header h1 { /*Dark Mode Title*/
 	font-family:  'Roboto Mono', monospace;
-	color: black;
+	color: white;
 	text-align: center;
 	text-shadow: 0 0 12px rgba(52, 78, 65, 1); /*green*/
 }
 
-body.dark header p { /*Light Mode Title*/
+body.dark header p { /*Dark Mode Text*/
 	font-family:  'Roboto Mono', monospace;
-	color: black;
+	color: white;
 	text-align: center;
 	text-shadow: 0 0 6px rgba(52, 78, 65, 1); /*green*/
 }
