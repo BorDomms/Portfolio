@@ -15,7 +15,7 @@ body  h1 { /*Light Mode Title*/
 	font-family:  'Roboto Mono', monospace;
 	color: black;
 	text-align: center;
-	animation: breatheTextLight 3s ease-in-out infinite;
+	box-shadow: 0 0 12px 8px rgba(108, 117, 125, 0.75); /*gray*/
 }
 
 header {
@@ -120,48 +120,18 @@ li img {
 
 @keyframes breatheGlowLight {
 	0%, 100% {
-		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.3);
+		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.3); /*purple*/
 	}
 	50% {
-		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 1);
+		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 1); /*purple*/
 	}
 }
 
 @keyframes breatheGlowDark {
 	0%, 100% {
-		box-shadow: 0 0 24px 8px rgba(250, 239, 156, 0.3);
+		box-shadow: 0 0 24px 8px rgba(250, 239, 156, 0.3); /*yellow*/
 	}
 	50% {
-		box-shadow: 0 0 24px 8px rgba(250, 239, 156, 1);
+		box-shadow: 0 0 24px 8px rgba(250, 239, 156, 1); /*yellow*/
 	}
-}
-
-@keyframes breatheTextLight {
-    0%, 100% {
-        text-shadow:
-            0 0 5px #9d4edd,
-            0 0 10px #9d4edd,
-            0 0 15px #9d4edd;
-    }
-    50% {
-        text-shadow:
-            0 0 10px #9d4edd,
-            0 0 20px #9d4edd,
-            0 0 30px #9d4edd;
-    }
-}
-
-@keyframes breatheTextDark {
-    0%, 100% {
-        text-shadow:
-            0 0 5px #fae588,
-            0 0 10px #fae588,
-            0 0 15px #fae588;
-    }
-    50% {
-        text-shadow:
-            0 0 10px #fae588,
-            0 0 20px #fae588,
-            0 0 30px #fae588;
-    }
 }
