@@ -101,7 +101,9 @@ body.dark section h2 {
 }
 
 section {
+  display: block;
   margin: 40px auto;
+  width: 100%
   max-width: 80%;
   color: #9d4edd; /*purple*/
   background: rgba(108, 117, 125, 0.3); /*gray*/
@@ -125,6 +127,7 @@ ul {
     flex-wrap: wrap;
 	gap: 80px;
 	padding: 0;
+	margin: 0 auto;
 }
 
 li {
@@ -175,7 +178,7 @@ li img {
   }
 
   ul {
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
   }
 
