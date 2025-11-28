@@ -37,7 +37,7 @@ header {
 	object-fit: cover;
 	border: 4px solid #9d4edd; /*purple*/
 	border-radius: 50%;
-	 
+
 	transition: border-color 0.8s, box-shadow 0.8s;
 	animation: breatheGlowLight 6s ease-in-out infinite;
 }
@@ -101,9 +101,7 @@ body.dark section h2 {
 }
 
 section {
-  display: block;
   margin: 40px auto;
-  width: 100%
   max-width: 80%;
   color: #9d4edd; /*purple*/
   background: rgba(108, 117, 125, 0.3); /*gray*/
@@ -127,7 +125,6 @@ ul {
     flex-wrap: wrap;
 	gap: 80px;
 	padding: 0;
-	margin: 0 auto;
 }
 
 li {
@@ -178,7 +175,7 @@ li img {
   }
 
   ul {
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
   }
 
