@@ -144,6 +144,15 @@ li img {
 	height: auto;
 }
 
+.break {
+	display: inline-block;
+}
+
+.break::after {
+	content: "\A";
+	white-space: pre;
+}
+
 @keyframes breatheGlowLight {
 	0%, 100% {
 		box-shadow: 0 0 24px 8px rgba(157, 78, 221, 0.3); /*purple*/
