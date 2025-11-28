@@ -131,6 +131,8 @@ li {
 }
 
 li label {
+	font-family: 'Kanit', Helvetica;
+	font-size: 10px;
     display: block;
 }
 
