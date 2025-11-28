@@ -11,11 +11,18 @@ body {
 	transition: background-color 0.8s, color 0.8s, background-image 0.8s;
 }
 
-body  h1 { /*Light Mode Title*/
+header h1 { /*Light Mode Title*/
 	font-family:  'Roboto Mono', monospace;
 	color: black;
 	text-align: center;
 	text-shadow: 0 0 12px rgba(108, 117, 125, 1); /*gray*/
+}
+
+header p { /*Light Mode Title*/
+	font-family:  'Roboto Mono', monospace;
+	color: black;
+	text-align: center;
+	text-shadow: 0 0 6px rgba(108, 117, 125, 1); /*gray*/
 }
 
 header {
