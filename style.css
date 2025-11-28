@@ -15,7 +15,7 @@ body  h1 { /*Light Mode Title*/
 	font-family:  'Roboto Mono', monospace;
 	color: black;
 	text-align: center;
-	box-shadow: 0 0 12px 8px rgba(108, 117, 125, 0.75); /*gray*/
+	text-shadow: 0 0 12px 8px rgba(108, 117, 125, 0.75); /*gray*/
 }
 
 header {
