@@ -76,6 +76,20 @@ body.dark #theme-toggle { /*Dark Mode Button*/
 	color: black;
 }
 
+body.dark header h1 { /*Light Mode Title*/
+	font-family:  'Roboto Mono', monospace;
+	color: black;
+	text-align: center;
+	text-shadow: 0 0 12px rgba(250, 239, 156, 1); /*green*/
+}
+
+body.dark header p { /*Light Mode Title*/
+	font-family:  'Roboto Mono', monospace;
+	color: black;
+	text-align: center;
+	text-shadow: 0 0 6px rgba(250, 239, 156, 1); /*green*/
+}
+
 body.dark section {
 	background-color: rgba(52, 78, 65, 0.3); /*green*/
 	color: #fae588;
