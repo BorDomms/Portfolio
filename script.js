@@ -4,9 +4,9 @@ const transitionDuration = 800;
 
 if (localStorage.getItem('theme') === 'dark') {
     body.classList.add('dark');
-    toggleButton.textContent = "Light Mode";
+    toggleButton.textContent = "☀";
 } else {
-    toggleButton.textContent = "Dark Mode";
+    toggleButton.textContent = "⏾";
 }
 
 toggleButton.addEventListener('click', () => {
@@ -15,10 +15,10 @@ toggleButton.addEventListener('click', () => {
 
     if (body.classList.contains('dark')) {
         localStorage.setItem('theme', 'dark');
-        toggleButton.textContent = "Light Mode";
+        toggleButton.textContent = "☀";
     } else {
         localStorage.setItem('theme', 'light');
-        toggleButton.textContent = "Dark Mode";
+        toggleButton.textContent = "⏾";
     }
 
     setTimeout(() => {
