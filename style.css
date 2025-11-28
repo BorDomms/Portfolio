@@ -13,7 +13,7 @@ body {
 
 body  h1 { /*Light Mode Title*/
 	font-family:  'Roboto Mono', monospace;
-	color: #6c757d; /*gray*/
+	color: black;
 	text-align: center;
 	animation: breatheTextLight 3s ease-in-out infinite;
 }
