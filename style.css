@@ -110,6 +110,7 @@ section {
 }
 
 section h2 {
+  font-family: 'Roboto Mono', monospace;
   text-align: center;
   margin-bottom: 15px;
   color: #9d4edd;
@@ -132,7 +133,7 @@ li {
 
 li label {
 	font-family: 'Kanit', Helvetica;
-	font-size: 10px;
+	font-size: 30px;
     display: block;
 }
 
